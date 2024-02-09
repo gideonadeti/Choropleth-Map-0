@@ -52,6 +52,17 @@ main {
     font-size: 1.5rem;
 }
 
+a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
 #tooltip {
     position: absolute;
     padding: 1rem;
