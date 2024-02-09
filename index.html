@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choropleth Map</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">United States Educational Attainment</h1>
+    </header>
+    <main>
+        <div id="description">
+            <p>Percentage of adults age 25 and older with a bachelor's degree or higher (2010-2014)</p>
+        </div>
+        <svg id="map" width="960" height="600"></svg>
+        <p class="source">Source: <a href="https://www.ers.usda.gov/data-products/county-level-data-sets/download-data.aspx">USDA
+                Economic Research Service</a></p>
+    </main>
+    <footer>
+        <p>&copy;
+            <script>document.write(new Date().getFullYear());</script> Choropleth Map. All rights reserved.
+        </p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-scale-chromatic@3.0.0/dist/d3-scale-chromatic.min.js"></script>
+    <script src="script.js"></script>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+
+</html>
